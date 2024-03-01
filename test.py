@@ -3,7 +3,7 @@ import os
 import subprocess
 import re
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 for i in range(13, 14):
     fileName = "ProofFiles/Proofs" + str(i) + ".agda"
