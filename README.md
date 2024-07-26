@@ -15,5 +15,5 @@ Evaluation and notes:
 - Objectively, it didn't do so well, but didn't do so badly either.
 - Was very good when I changed names of lemmas to confuse it. For example, it defined `<=` correctly just based on the base case when I replaced it with random characters, like `^*`. Also, it proved associativity of `+` when I called it `dist+`.
 - It rarely tried to use library functions and instead tried to prove from scratch.
-- For some reason, it literally could not prove `a = a * 1`, though it proved harder things (in my opinion).
+- For some reason, it literally could not prove `a = a * 1`, though it proved harder things (in my opinion). 
 - Agda has two "styles" of proofs: one-shotting terms (generally unreadable) and a more readable style of chaining equalities. The LLM never succeeded with the second style because it would have a minor error at some step. Possibly we could allow it to revise partially correct proofs in this style.
